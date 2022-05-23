@@ -6,11 +6,12 @@ sh ${script_path}/Call_CCS.sh
 ### Classify CCS 
 sh ${script_path}/Classify_CCS.sh
 
+### Barcode correction 
+sh  ${script_path}/barcode_correction.sh
+
 ### Mapping
 sh ${script_path}/mapping.sh
 
-### Barcode correction 
-sh  ${script_path}/barcode_correction.sh
 
 ### Mapping reads to reference annotation
 sh ${script_path}/gffcompare.sh
